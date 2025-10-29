@@ -142,20 +142,21 @@ footer {
   margin-top: var(--space-32);
   border-radius: 0 0 10px 10px;
 }
-/* Estilo para links que funcionam como botões (ex: "Doe Agora") */
-a.botao, a.button {
-  display: inline-block;              /* permite aplicar margin e padding */
-  margin-top: 16px;                   /* espaço acima do botão */
-  padding: 10px 24px;                 /* tamanho interno */
-  border-radius: 8px;                 /* cantos arredondados */
-  background-color: var(--color-primary);
-  color: white;
-  text-decoration: none;              /* remove o sublinhado */
+/* Estilo padrão para botões e links com aparência de botão */
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1e726e;    
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
   font-size: var(--font-size-md);
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-a.botao:hover, a.button:hover {
-  background-color: #356b9c;          /* tom mais escuro no hover */
+.botao:hover {
+  background: #155b56;       /* cor um pouco mais escura no hover */
 }
